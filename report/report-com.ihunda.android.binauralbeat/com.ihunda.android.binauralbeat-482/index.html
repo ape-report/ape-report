@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> com.ihunda.android.binauralbeat</title>
+
+
+    <!-- Styles -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css"><!-- font-awesome -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"><!-- Bootstrap -->
+    <link href="/css/pygments.css" rel="stylesheet" type="text/css"><!-- Pygments -->
+    <link href="/css/moon.css" rel="stylesheet" type="text/css"><!-- moon -->
+    <link href="/css/bibtex.css" rel="stylesheet" type="text/css"><!-- bibtex-->
+
+  </head>
+  <body role="document">
+    <div class="container">
+    <h1 id="comihundaandroidbinauralbeat">com.ihunda.android.binauralbeat</h1>
+<p><a href="./vis-timeline.html">Timeline</a></p>
+<iframe src="./vis-timeline.html" width="100%" height="500px" style="border:none;"></iframe>
+
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17</pre></div></td><td class="code"><div class="codehilite"><pre>// *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+// Build fingerprint: &#39;google/hammerhead/hammerhead:6.0.1/M4B30Z/3437181:user/release-keys&#39;
+// Revision: &#39;11&#39;
+// ABI: &#39;arm&#39;
+// pid: 17645, tid: 18146, name: GLThread 9891  &gt;&gt;&gt; com.ihunda.android.binauralbeat &lt;&lt;&lt;
+// signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xa08c00e0
+//     r0 00000002  r1 0000002b  r2 ffffffd0  r3 b6cd82f0
+//     r4 b6cd82e8  r5 a08ed9c0  r6 a0525000  r7 a08c0000
+//     r8 a050d348  r9 b6ccb594  sl 00000001  fp 00000002
+//     ip a08c00ac  sp a0a33288  lr b6cae25b  pc b6cab2da  cpsr 200d0030
+// 
+// backtrace:
+//     #00 pc 000552da  /system/lib/libc.so (ifree+49)
+//     #01 pc 00058257  /system/lib/libc.so (je_free+374)
+//     #02 pc 0027d9fb  /system/lib/libart.so (_ZN3art3JNI29ReleasePrimitiveArrayCriticalEP7_JNIEnvP7_jarrayPvi+642)
+//     #03 pc 0005a510  /system/lib/libandroid_runtime.so
+//     #04 pc 7380375d  /data/dalvik-cache/arm/system@framework@boot.oat (offset 0x1ed6000)
+</pre></div>
+</td></tr></table>
+    </div>
+
+    <footer class="footer" style="margin-top:10px;">
+      <div class="container">
+          <span class="text-muted">&copy; 2017 <a href="/"></a>. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/jquery-migrate-1.4.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+
+    
+  </body>
+</html>
